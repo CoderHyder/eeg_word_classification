@@ -1,0 +1,26 @@
+model:
+  name: "eegrnn"
+  params:
+    n_channels: 14
+    n_classes: 5
+    hidden_size: 128
+    n_layers: 2
+    cell_type: "lstm"
+
+training:
+  seed: 42
+  num_epochs: 100
+  batch_size: 32
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  early_stopping_patience: 10
+
+data:
+  raw_dir: "data/raw"
+  preprocessed_dir: "data/preprocessed"
+  splits_dir: "data/splits"
+
+results:
+  log_dir: "results/logs/exp3_rnn"
+  checkpoint_dir: "results/checkpoints/exp3_rnn"
+  figures_dir: "results/figures/exp3_rnn"
