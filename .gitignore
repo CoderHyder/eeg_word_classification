@@ -1,0 +1,34 @@
+# ==========================
+# Project-specific ignores
+# ==========================
+
+# Raw and preprocessed data
+data/raw/
+data/preprocessed/
+
+# Training results, logs, checkpoints
+results/checkpoints/
+results/logs/
+
+# ==========================
+# Python ignores
+# ==========================
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ==========================
+# Editor / OS junk
+# ==========================
+.DS_Store
+.vscode/
+
+# ==========================
+# Unwanted old folders
+# ==========================
+Desktop/
+gc/
