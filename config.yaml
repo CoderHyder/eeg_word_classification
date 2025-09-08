@@ -28,8 +28,8 @@ model: eegcnn
 
 training:
   seed: 42
-  num_epochs: 20
-  batch_size: 64
+  num_epochs: 200
+  batch_size: 128
   learning_rate: 0.0005
   weight_decay: 0.0001
   early_stopping_patience: 10
